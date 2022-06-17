@@ -5,6 +5,7 @@ export default function Task({
   task: { id, title, state },
   onArchiveTask,
   onPinTask,
+  onCalClick,
 }) {
   return (
     <div className={`list-item ${state}`}>
@@ -43,6 +44,20 @@ export default function Task({
           </a>
         )}
       </div>
+
+      {/* why would i want to stop the parent event firing with stop propagation? */}
+      <div className="actions" onClick={(e) => e.stopPropagation()}>
+        {state !== "CALLUMS_TASK" && (
+          // eslint-disable-next-line jsx-a11y/anchor-is-valid
+          <a onClick={() => onCalClick(id)}>
+            <span
+              id={`calTask-${id}`}
+              className={`icon-star`}
+              aria-label={`calTask-${id}`}
+            />
+          </a>
+        )}
+      </div>
     </div>
   );
 }
@@ -61,4 +76,6 @@ Task.propTypes = {
   onArchiveTask: PropTypes.func,
   /** Event to change the task to pinned */
   onPinTask: PropTypes.func,
+  /** Event to learn how this works */
+  onCalClick: PropTypes.func,
 };

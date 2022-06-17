@@ -37,6 +37,127 @@ exports[`Storyshots Task Archived 1`] = `
 </div>
 `;
 
+exports[`Storyshots Task Callum 1`] = `
+<div
+  className="list-item TASK_INBOX"
+>
+  <label
+    className="checkbox"
+  >
+    <input
+      defaultChecked={false}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      aria-label="archiveTask-1"
+      className="checkbox-custom"
+      id="archiveTask-1"
+      onClick={[Function]}
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      placeholder="Input title"
+      readOnly={true}
+      type="text"
+      value="Test Task"
+    />
+  </div>
+  <div
+    className="actions"
+    onClick={[Function]}
+  >
+    <a
+      onClick={[Function]}
+    >
+      <span
+        aria-label="pinTask-1"
+        className="icon-star"
+        id="pinTask-1"
+      />
+    </a>
+  </div>
+  <div
+    className="actions"
+    onClick={[Function]}
+  >
+    <a
+      onClick={[Function]}
+    >
+      <span
+        aria-label="calTask-1"
+        className="icon-star"
+        id="calTask-1"
+      />
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Task Callumd 1`] = `
+<div
+  className="list-item CALLUMS_TASK"
+>
+  <label
+    className="checkbox"
+  >
+    <input
+      defaultChecked={false}
+      disabled={true}
+      name="checked"
+      type="checkbox"
+    />
+    <span
+      aria-label="archiveTask-1"
+      className="checkbox-custom"
+      id="archiveTask-1"
+      onClick={[Function]}
+    />
+  </label>
+  <div
+    className="title"
+  >
+    <input
+      placeholder="Input title"
+      readOnly={true}
+      type="text"
+      value="Test Task"
+    />
+  </div>
+  <div
+    className="actions"
+    onClick={[Function]}
+  >
+    <a
+      onClick={[Function]}
+    >
+      <span
+        aria-label="pinTask-1"
+        className="icon-star"
+        id="pinTask-1"
+      />
+    </a>
+  </div>
+  <div
+    className="callum"
+    onClick={[Function]}
+  >
+    <a
+      onClick={[Function]}
+    >
+      <span
+        aria-label="calTask-1"
+        id="calTask-1"
+      />
+    </a>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Task Default 1`] = `
 <div
   className="list-item TASK_INBOX"
@@ -174,6 +295,310 @@ exports[`Storyshots Task Pinned 1`] = `
         id="pinTask-1"
       />
     </a>
+  </div>
+</div>
+`;
+
+exports[`Storyshots TaskList Callum 1`] = `
+<div
+  style={
+    Object {
+      "padding": "3rem",
+    }
+  }
+>
+  <div
+    className="list-items"
+    data-testid="success"
+  >
+    <div
+      className="list-item TASK_INBOX"
+    >
+      <label
+        className="checkbox"
+      >
+        <input
+          defaultChecked={false}
+          disabled={true}
+          name="checked"
+          type="checkbox"
+        />
+        <span
+          aria-label="archiveTask-1"
+          className="checkbox-custom"
+          id="archiveTask-1"
+          onClick={[Function]}
+        />
+      </label>
+      <div
+        className="title"
+      >
+        <input
+          placeholder="Input title"
+          readOnly={true}
+          type="text"
+          value="Task 1"
+        />
+      </div>
+      <div
+        className="actions"
+        onClick={[Function]}
+      >
+        <a
+          onClick={[Function]}
+        >
+          <span
+            aria-label="pinTask-1"
+            className="icon-star"
+            id="pinTask-1"
+          />
+        </a>
+      </div>
+      <div
+        className="callum"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="list-item TASK_INBOX"
+    >
+      <label
+        className="checkbox"
+      >
+        <input
+          defaultChecked={false}
+          disabled={true}
+          name="checked"
+          type="checkbox"
+        />
+        <span
+          aria-label="archiveTask-2"
+          className="checkbox-custom"
+          id="archiveTask-2"
+          onClick={[Function]}
+        />
+      </label>
+      <div
+        className="title"
+      >
+        <input
+          placeholder="Input title"
+          readOnly={true}
+          type="text"
+          value="Task 2"
+        />
+      </div>
+      <div
+        className="actions"
+        onClick={[Function]}
+      >
+        <a
+          onClick={[Function]}
+        >
+          <span
+            aria-label="pinTask-2"
+            className="icon-star"
+            id="pinTask-2"
+          />
+        </a>
+      </div>
+      <div
+        className="callum"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="list-item TASK_INBOX"
+    >
+      <label
+        className="checkbox"
+      >
+        <input
+          defaultChecked={false}
+          disabled={true}
+          name="checked"
+          type="checkbox"
+        />
+        <span
+          aria-label="archiveTask-3"
+          className="checkbox-custom"
+          id="archiveTask-3"
+          onClick={[Function]}
+        />
+      </label>
+      <div
+        className="title"
+      >
+        <input
+          placeholder="Input title"
+          readOnly={true}
+          type="text"
+          value="Task 3"
+        />
+      </div>
+      <div
+        className="actions"
+        onClick={[Function]}
+      >
+        <a
+          onClick={[Function]}
+        >
+          <span
+            aria-label="pinTask-3"
+            className="icon-star"
+            id="pinTask-3"
+          />
+        </a>
+      </div>
+      <div
+        className="callum"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="list-item TASK_INBOX"
+    >
+      <label
+        className="checkbox"
+      >
+        <input
+          defaultChecked={false}
+          disabled={true}
+          name="checked"
+          type="checkbox"
+        />
+        <span
+          aria-label="archiveTask-4"
+          className="checkbox-custom"
+          id="archiveTask-4"
+          onClick={[Function]}
+        />
+      </label>
+      <div
+        className="title"
+      >
+        <input
+          placeholder="Input title"
+          readOnly={true}
+          type="text"
+          value="Task 4"
+        />
+      </div>
+      <div
+        className="actions"
+        onClick={[Function]}
+      >
+        <a
+          onClick={[Function]}
+        >
+          <span
+            aria-label="pinTask-4"
+            className="icon-star"
+            id="pinTask-4"
+          />
+        </a>
+      </div>
+      <div
+        className="callum"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="list-item TASK_INBOX"
+    >
+      <label
+        className="checkbox"
+      >
+        <input
+          defaultChecked={false}
+          disabled={true}
+          name="checked"
+          type="checkbox"
+        />
+        <span
+          aria-label="archiveTask-5"
+          className="checkbox-custom"
+          id="archiveTask-5"
+          onClick={[Function]}
+        />
+      </label>
+      <div
+        className="title"
+      >
+        <input
+          placeholder="Input title"
+          readOnly={true}
+          type="text"
+          value="Task 5"
+        />
+      </div>
+      <div
+        className="actions"
+        onClick={[Function]}
+      >
+        <a
+          onClick={[Function]}
+        >
+          <span
+            aria-label="pinTask-5"
+            className="icon-star"
+            id="pinTask-5"
+          />
+        </a>
+      </div>
+      <div
+        className="callum"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="list-item TASK_INBOX"
+    >
+      <label
+        className="checkbox"
+      >
+        <input
+          defaultChecked={false}
+          disabled={true}
+          name="checked"
+          type="checkbox"
+        />
+        <span
+          aria-label="archiveTask-6"
+          className="checkbox-custom"
+          id="archiveTask-6"
+          onClick={[Function]}
+        />
+      </label>
+      <div
+        className="title"
+      >
+        <input
+          placeholder="Input title"
+          readOnly={true}
+          type="text"
+          value="Task 6"
+        />
+      </div>
+      <div
+        className="actions"
+        onClick={[Function]}
+      >
+        <a
+          onClick={[Function]}
+        >
+          <span
+            aria-label="pinTask-6"
+            className="icon-star"
+            id="pinTask-6"
+          />
+        </a>
+      </div>
+      <div
+        className="callum"
+        onClick={[Function]}
+      />
+    </div>
   </div>
 </div>
 `;

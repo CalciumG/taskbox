@@ -34,3 +34,13 @@ Archived.args = {
     state: "TASK_ARCHIVED",
   },
 };
+
+export const Callum = Template.bind({});
+Callum.args = {
+  task: {
+    id: "1",
+    title: "Test Task",
+    state: "CALLUMS_TASK",
+    updatedAt: new Date(2021, 0, 1, 9, 0),
+  },
+};
